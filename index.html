@@ -1,0 +1,63 @@
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1723824148661426');
+fbq('track','PageView');
+</script>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f8f8f8}
+.container{width:95%;max-width:420px;margin:30px auto;background:#fff;padding:30px 20px;border-radius:20px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+.dp{width:140px;height:140px;border-radius:50%;object-fit:cover;border:5px solid #ddd}
+h1{margin-top:20px;font-size:34px}
+.sub{margin-top:10px;font-size:18px;color:#555}
+.join{display:block;margin-top:25px;padding:18px;background:#0088cc;color:#fff;text-decoration:none;font-size:22px;border-radius:50px;font-weight:bold}
+.members{margin-top:20px;color:#16a34a;font-weight:bold;animation:blink .8s infinite}
+@keyframes blink{50%{opacity:.4}}
+.timer{display:flex;justify-content:space-around;margin-top:25px}
+.timer span{font-size:35px;color:#d60045;font-weight:bold}
+.timer p{font-size:14px}
+</style>
+
+<div class="container">
+
+<img class="dp" src="https://d1yei2z3i6k35z.cloudfront.net/18362304/6a53479ff39b01.28859413_5576.jpg">
+
+<h1>AKASH ARMY 💫</h1>
+
+<p class="sub">VIP PANEL JOIN KARO FAST 🚀</p>
+
+<a class="join" href="https://t.me/+uRxBD5fL7hphNTM1">
+🚀 JOIN TELEGRAM
+</a>
+
+<div class="members">
+🔥 999+ Members Joining Already
+</div>
+
+<div class="timer">
+<div><span id="s">30</span><p>SECONDS</p></div>
+</div>
+
+</div>
+
+<script>
+let sec=30;
+let t=setInterval(function(){
+document.getElementById("s").innerHTML=("0"+sec).slice(-2);
+if(sec<=0){
+clearInterval(t);
+if(typeof fbq!=="undefined"){fbq("track","Lead");}
+window.location.href="https://t.me/+uRxBD5fL7hphNTM1";
+}
+sec--;
+},1000);
+</script>
